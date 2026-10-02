@@ -1,0 +1,42 @@
+# Secrets & credentials
+.env
+.env.*
+!.env.example
+service_account.json
+serivce-account.json
+service-account.json
+*.json.key
+
+# Python virtualenvs
+env/
+.venv/
+venv/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Databases & vector stores
+logiq.db
+*.db
+*.sqlite3
+chroma_db/
+
+# Test & coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Docs (keep only README)
+*.md
+!README.md

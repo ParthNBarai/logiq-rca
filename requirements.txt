@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+sqlalchemy[asyncio]
+aiosqlite
+aiofiles
+chromadb
+sentence-transformers
+langchain-google-genai
+langgraph
+pydantic-settings
+python-dotenv
+httpx
